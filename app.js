@@ -135,6 +135,7 @@ document.getElementById("search")
 
 sliderBtn.addEventListener('click', function () {
   createSlider();
+  document.getElementById("duration").value= "";
 })
 
 const toggleSpinner = () => {
